@@ -1,0 +1,19 @@
+.place {
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    justify-items: start;
+    gap: 32px;
+}
+.place:last-of-type {
+    margin-bottom: 0;
+}
+
+@media (min-width:768px) {
+    .place {
+        margin-bottom: 73px;
+        grid-template-rows: repeat(auto-fit, minmax(min-content(),max-content()));
+        grid-column-gap: 28px;
+        grid-row-gap: 48px;
+    }
+}
