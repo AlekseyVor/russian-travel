@@ -15,7 +15,7 @@
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
     .cover__subtitle {
         padding: 0 332px 195px;
     }
