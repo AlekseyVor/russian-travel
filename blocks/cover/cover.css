@@ -4,7 +4,6 @@
     background-size: 100% 100%;
     z-index: 1;
     margin-bottom: 64px;
-    padding: 33px 16px;
 }
 
 .cover::after {
@@ -26,7 +25,19 @@
 @media (min-width: 768px) {
     .cover {
         margin-bottom: 88px;
-        padding: 115px 104px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .cover {
+        margin-bottom: 92px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .cover {
+        margin: 0 48px 92px;
+        
     }
 }
 

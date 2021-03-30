@@ -6,6 +6,7 @@
 .menu__links:first-of-type {
     text-decoration: underline;
 }
+
 .menu__links:last-of-type {
     margin-right: 0;
 }

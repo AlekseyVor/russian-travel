@@ -1,2 +1,9 @@
 .logo_place_header {
+    min-width: 142px;
+}
+
+@media (min-width:768px) {
+    .logo_place_header {
+        min-width: 176px;
+    }
 }
