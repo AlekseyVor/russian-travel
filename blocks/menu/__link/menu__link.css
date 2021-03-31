@@ -5,6 +5,11 @@
     color: inherit;
 }
 
+.menu__link:hover {
+    opacity: 0.8;
+    transition: opacity 0.8s ease-in-out;
+}
+
 @media (min-width:768px) {
     .menu__link {
         font-size: 24px;

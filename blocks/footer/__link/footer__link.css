@@ -1,22 +1,14 @@
 .footer__link {
-    margin-bottom: 32px;
-}
-
-.footer__link:last-of-type {
-    margin-bottom: 0;
-}
-
-.footer__link:hover {
-    opacity: 0.5;
-    transition: opacity 0.8s ease-in-out;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    text-decoration: none;
+    color: inherit;
 }
 
 @media (min-width: 768px) {
     .footer__link {
-        margin-bottom: 0;
-        margin-right: 18px;
-    }
-    .footer__link:last-of-type {
-        margin-right: 0;
+        font-size: 16px;
+        line-height: 18px;
     }
 }
