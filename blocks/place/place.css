@@ -26,7 +26,6 @@
 
 @media (min-width:1280px) {
     .place {
-        margin-bottom: 80px;
         grid-template-columns: fit-content(460px) 1fr;
         gap: 48px 40px;
     }

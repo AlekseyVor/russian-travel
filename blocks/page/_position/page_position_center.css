@@ -6,20 +6,17 @@
 @media (min-width:768px) {
     .page_position_center { 
         max-width: 768px;
-        margin: 0 auto;
     }
 }
 
 @media (min-width:1024px) {
     .page_position_center { 
         max-width: 1024px;
-        margin: 0 auto;
     }
 }
 
 @media (min-width:1280px) {
     .page_position_center { 
         max-width: 1280px;
-        margin: 0 auto;
     }
 } 
